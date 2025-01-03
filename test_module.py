@@ -1,7 +1,6 @@
 import unittest
 import mean_var_std
 
-
 # the test case
 class UnitTests(unittest.TestCase):
     def test_calculate(self):
