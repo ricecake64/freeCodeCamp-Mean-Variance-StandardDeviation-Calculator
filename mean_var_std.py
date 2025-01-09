@@ -1,7 +1,7 @@
 import numpy as np
 
 def calculate(list):
-        #check if list length is valid
+    #check if list length is valid
     if len(list) != 9:
         raise ValueError("List must contain nine numbers.")
     #convert list into 3x3 numpy array
